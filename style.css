@@ -1,0 +1,105 @@
+body{
+  margin: 0;
+  background-color: yellow;
+}
+.custom-link {
+  color: rgb(248, 243, 243); /* fill color */
+  /* -webkit-text-stroke: 1px white; white border around letters */
+  font-weight: 600; /* improves visibility */
+  font-family: "Lobster Two", sans-serif;
+  /* font-weight: 400; */
+  font-style: normal;
+}
+
+.custom-link:hover {
+  background-color: white;
+  color: black !important;
+}
+
+.custom-bg{
+  background-color: rgb(172, 247, 92);
+  padding: 20px;
+}
+
+.custom-name{
+  font-size: 48px;
+  font-family: "Piedra", serif;
+  font-weight: 400;
+  letter-spacing: 4px;          /* space between letters */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* soft shadow */
+}
+
+.custom-text {
+  font-style: italic;
+  margin-top: 10px;
+  font-size: 28px;
+  font-family: "Lobster Two", sans-serif;
+}
+
+
+.custom-ldata{
+  text-align: left;
+  padding-left: 100px;
+  color: whitesmoke;
+}
+
+.custom-rdata{
+  text-align: left;
+  padding-left:  300px;
+  color: whitesmoke;
+}
+
+.custom-card {
+  width: 260px;
+  height: 220px;
+  border: 3px solid #222;
+  border-radius: 15px;
+  background-color: #a8eb5f;
+  transition: all 0.3s ease;
+}
+
+.custom-card:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.25);
+  border-color: #af398a;
+}
+
+.custom-card i {
+    font-size: 80px;
+    color: black;
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
+
+.custom-card:hover i {
+    transform: scale(1.2);
+    color: #af398a;
+}
+
+.video-box video {
+  display: block;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.video-box::after {
+  z-index: 1;
+}
+
+
+
+.logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #f3fb02;          /* circle color */
+  color: orange;              /* letter color */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  font-weight: bold;
+  border: 4px solid #15ef40;   /* outer border */
+  margin-left: 10px;
+}
